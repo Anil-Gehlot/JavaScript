@@ -1,6 +1,7 @@
 /*
 
-Primitive Types : Number, String, Boolean, Undefined, Null
+Primitive Types : Number, String, Boolean, Undefined, Null, Objects.
+
 */
 
 // Number Data Type
@@ -39,3 +40,19 @@ console.log(var8)
 // Null Data Type
 let var9 = null
 console.log( typeof(var9) )
+
+
+// Objects
+
+let student = {
+    "name" : 'anil',
+    "age" : 23
+}
+
+console.log(student)
+
+console.log( student["age"] )
+console.log( student.age )
+
+console.log( student['name'] )
+console.log( student.name )
