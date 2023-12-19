@@ -1,0 +1,34 @@
+
+<!-- 
+
+Qs1. Prompt the user to enter their full name. Generate a username for them based on the input
+        Start username with @, followed by their full name and ending with the fullname length.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+<body>
+        
+</body>
+<script>
+        let name = prompt("Enter your name ");
+
+        let nameSize = name.length
+        name = name.split(" ")
+
+        let username = ""
+        for (let element of name){
+                username += element
+        }
+
+        console.log( ` Your username is @${username+nameSize}` )
+
+
+
+</script>
+</html>
