@@ -53,12 +53,3 @@ let newStr = "Hii, Welcome to my world..";
 console.log( newStr.slice(7, 20));
 console.log( newStr.substring(7,20) );
 
-
-
-
-
-
-
-
-
-console.log('dkjfblsdbvksdbksd')
