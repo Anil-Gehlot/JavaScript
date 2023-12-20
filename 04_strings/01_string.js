@@ -6,6 +6,7 @@
 
 let str1 = 'hiii i am anil gehlot.'               // with single quote
 console.log(str1)
+console.log('sjddbfdsvbksdb')
 
 
 let str2 = "hello!! world.....";                // with dual quote
