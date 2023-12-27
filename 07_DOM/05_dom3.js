@@ -62,7 +62,6 @@ document.querySelector("body").prepend(heading)
 
 //  TO DELETE node
 
-
 let para = document.querySelector("p")
 para.remove()
 
