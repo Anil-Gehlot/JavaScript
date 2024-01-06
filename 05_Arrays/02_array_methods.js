@@ -30,6 +30,12 @@ let newArray = numbers.concat(names, info);
 console.log(newArray)
 console.log()
 
+// spread operator to concat the array and return copy
+let a = [1, 3, 4]
+let b = [5, 6, 8]
+console.log([...a, ...b])
+console.log([...a, 'n',  ...b, 'ad'])
+
 
 // unshift( ) : add to start
 let sample = [1, 2, 3, 4, 5, 6, 6, 7];
@@ -48,6 +54,36 @@ let places = ['rajwada', "lalBagh", "raceCourse", 'bholaRam', "patalPani", 'bila
 let slice = places.slice(2, 5)
 console.log(slice)
 
+// to make the copy of array
+let array = [3,45,45,346,34,'dg']
+let copied = [...array]
+console.log(copied)
+
+
+
+
+let index = names.indexOf("harsh")
+console.log(index)  // it gives the index of specified element , if not found then return -1
+
+
+// includes() returns true if specified element found else return false
+console.log(numbers.includes(5)) 
+
+// join() : joins all element of array
+let myArray = [1,2,4,'d', 2, 'e']
+let joined = myArray.join(",")
+let joined2 = myArray.join("*")
+console.log(joined)
+console.log(joined2) // type === string
+
+
+//  to sort the array 
+myArray.sort()              // it converts the element into the string and then sort
+console.log(myArray)
+
+// To reverse the array
+myArray.reverse()
+console.log(myArray)
 
 
 
