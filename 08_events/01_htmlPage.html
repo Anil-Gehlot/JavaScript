@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #id1{
+            background-color: yellowgreen;
+
+        }
+        .cls1{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            text-align: center;
+            background-color: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- onclick is for 1 click -->
+    <button onclick="console.log('clicked'); alert('alert msgg')" >click me</button>
+
+
+    <!-- for double click -->
+    <button ondblclick="console.log('doubled clicked')"> click 2 times </button>
+    <br><br>
+
+    <div id="id1" onmouseover="console.log('hovering the mouse.')">
+        this is a div
+    </div>
+
+
+    <br><br><br><br>
+
+    <button id="id2" >new button</button>
+
+    <div class="cls1">
+        hii new div
+    </div>
+
+
+    <script src="02_events.js"></script>
+
+</body>
+</html>
